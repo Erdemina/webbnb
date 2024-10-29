@@ -17,6 +17,20 @@ body {
 	background-color: #fff;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+.navbar a {
+	text-decoration: none;
+	color: #333;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+	color: #309657;
+}
+
+
 .logo img {
 	height: 40px;
 }
@@ -179,7 +193,7 @@ body {
 .contact-form button {
 	padding: 10px 20px;
 	border: none;
-	background-color: #007bff;
+	background-color: #309657;
 	color: #fff;
 	border-radius: 5px;
 	cursor: pointer;
@@ -189,7 +203,7 @@ body {
 }
 
 .contact-form button:hover {
-	background-color: #0056b3;
+	background-color: #309657;
 }
 
 .contact-info {
@@ -207,5 +221,5 @@ body {
 }
 
 .profil a:hover {
-	color: #007bff;
+	color: #309657;
 }
